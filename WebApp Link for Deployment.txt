@@ -1,0 +1,33 @@
+
+Local run process-
+1) Install Streamlit:
+
+pip install streamlit pandas joblib scikit-learn  (Needed to Run Once only)
+
+2)Run the code file(main python file in which model is build): 
+
+Python 7AssLogisticRegression.ipynb	  (Needed to Run Once only)
+This will create:
+titanic_model.pkl
+
+3) Run the App:
+streamlit run app.py
+
+Deployment Steps-
+
+1) Uploaded all the files on github repository
+
+Titanic_Streamlit_Project
+│
+├── app.py
+├── titanic_model.pkl
+├── Titanic_train.csv   (optional)
+├── requirements.txt
+└── README.md           (optional)
+
+repository link-
+https://github.com/SheetalTPatil/TitanicStreamlitApp.git
+
+2) Streanlit App Link-
+
+https://sheetal-titanic-app.streamlit.app
